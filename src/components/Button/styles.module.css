@@ -1,0 +1,38 @@
+.button {	
+	height: 45px;
+	width: 100px;
+	padding: 0px 20px;	
+	font-weight: bold;
+	font-size: 19px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 19px;
+	border: 0;	
+	border-radius: 0 4px 4px 0;
+	background: linear-gradient(to bottom,#bf3434,#ab0e0e);
+	color:#fff;		
+}
+
+.button:before {
+	content: '';
+	position: absolute;
+	top: 15px;
+	left: -6px;
+	border-width: 8px 8px 8px 0;
+	border-style: solid solid solid none;
+	border-color: transparent #b52e2e transparent;	
+}
+
+.button:hover {
+	outline: none;
+	background: #bf3434;
+	cursor: pointer;
+}
+
+
+.button:hover:before{
+	border-right-color: #bf3434;
+}
+
+.button:focus {
+	outline: 0;
+}
